@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-image: linear-gradient(to right, #5217ba, #5f1782);
+  padding: 0 !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  height: 40px;
+  padding-left: 20ox;
+}
+.navbar-nav li {
+  padding: 0px 10px;
+}
+.navbar-nav li :hover {
+  background-color: #f46fc8;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+#banner {
+  background-image: linear-gradient(to right, #5217ba, #5f1782);
+  color: #fff;
+}
+.aboutme h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.aboutme p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.wave {
+  width: 100%;
+}
+
+/* --------------------experience--------------- */
+.exp {
+  padding: 20px;
+}
+.exp p {
+  padding-top: 5px;
+}
+#experience {
+  padding: 80px 0;
+}
+.exp-img {
+  width: 100px;
+  margin: 20px;
+}
+
+/*----------------Skill-----------*/
+
+#skills {
+  padding: 100px 0;
+}
+.skillName {
+  margin-bottom: 100px;
+}
+.skill-img {
+  width: 150px;
+  margin: 20px;
+}
+.title::before {
+  content: "";
+  background: #7b1798;
+  height: 5px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(54px);
+}
+.title::after {
+  content: "";
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  display: block;
+  transform: translateY(8px);
+}
+
+/*--------------------------------contact----------------------*/
+
+#contact {
+  background-image: linear-gradient(to right, #5217ba, #5f1782);
+  padding-bottom: 40px;
+  color: #fff;
+}
+.cont {
+  margin-bottom: 100px;
+}
+.footer-box .fa {
+  color: aqua;
+}
